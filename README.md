@@ -6,4 +6,6 @@ The venture team has asked us (the data team) to characterize the commonalities 
 
 ### Tools Used: VADER
 
-VADER is a sentiment analysis tool which allows you to describe the polarity of natural language and is particularly well-tuned to feedback data (short, few sentences entries). In this project, I am working on using sentiment analysis to interrogate the feedback on a more quantitative level. In the future, using sentiment scores may be one of several features in a model to classify the similarities of ventures and potentially predict issues they may have in the launch process.
+VADER is a sentiment analysis library which allows you to describe the polarity of natural language. It is particularly well-tuned to feedback data (short, few sentences entries). You can find more about it [here](https://github.com/cjhutto/vaderSentiment). 
+
+In this project, I am using VADER to interrogate the feedback on a more quantitative level and help characterize successful ventures as the venture team has requested. In the future, using sentiment scores may be one of several features in a more comlpex model to potentially identify which data we track has the most predictive power in venture success.
